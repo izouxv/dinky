@@ -16,4 +16,8 @@
 
 # ./mvnw clean package -Dmaven.test.skip=true -P aliyun,prod,scala-2.12,web,flink-1.14
 # ./mvnw clean package -Dmaven.test.skip=true -P aliyun,prod,fast,jdk11,mac,maven-central,scala-2.12,web,flink-1.16
-./mvnw clean package -Dmaven.test.skip=true -P aliyun,prod,fast,jdk11,mac,maven-central,scala-2.12,web,flink-all
+# ./mvnw clean package -Dmaven.test.skip=true -P aliyun,dev,fast,jdk11,mac,maven-central,scala-2.12,web,flink-all
+# ./mvnw clean package -Dmaven.test.skip=true -P aliyun,dev,fast,jdk11,mac,maven-central,scala-2.12,web,flink-all
+./mvnw clean package -Dmaven.test.skip=true -P aliyun,dev,fast,jdk11,mac,flink-single-version,maven-central,scala-2.12,web,flink-1.16
+# ./mvnw clean package -Dmaven.test.skip=true -P aliyun,prod,jdk11,mac,maven-central,scala-2.12,web,flink-all
+# ./mvnw clean package -Dmaven.test.skip=true -P aliyun,dev,fast,jdk11,mac,maven-central,scala-2.12,web,flink-all
